@@ -1,0 +1,116 @@
+if [ -f   /opt/Xilinx/14.1/ISE_DS/settings32.sh ]; then 
+ source /opt/Xilinx/14.1/ISE_DS/settings32.sh >> /tmp/log 
+fi
+if [ -f   /opt/Xilinx/14.1/ISE_DS/settings64.sh ]; then
+ source /opt/Xilinx/14.1/ISE_DS/settings64.sh >> /tmp/log
+fi
+ 
+echo work=./work >> DoorLock_tb.init
+echo verilog work PNU_XOR2.v >> DoorLock_tb.prj
+echo verilog work PNU_NOT.v >> DoorLock_tb.prj
+echo verilog work PNU_DFF.v >> DoorLock_tb.prj
+echo verilog work count_6.v >> DoorLock_tb.prj
+echo verilog work PNU_AND3.v >> DoorLock_tb.prj
+echo verilog work PNU_NOR3.v >> DoorLock_tb.prj
+echo verilog work PNU_OR2.v >> DoorLock_tb.prj
+echo verilog work PNU_OR3.v >> DoorLock_tb.prj
+echo verilog work PNU_AND2.v >> DoorLock_tb.prj
+echo verilog work PNU_NOR2.v >> DoorLock_tb.prj
+echo verilog work count_4.v >> DoorLock_tb.prj
+echo verilog work PNU_OR4.v >> DoorLock_tb.prj
+echo verilog work PNU_NOR4.v >> DoorLock_tb.prj
+echo verilog work seg7_change.v >> DoorLock_tb.prj
+echo verilog work fail.v >> DoorLock_tb.prj
+echo verilog work open.v >> DoorLock_tb.prj
+echo verilog work PNU_DFF_Ce.v >> DoorLock_tb.prj
+echo verilog work PNU_AND4.v >> DoorLock_tb.prj
+echo verilog work Compare_Password.v >> DoorLock_tb.prj
+echo verilog work DCB.v >> DoorLock_tb.prj
+echo verilog work seg_change.v >> DoorLock_tb.prj
+echo verilog work PNU_ONE.v >> DoorLock_tb.prj
+echo verilog work seg_fail.v >> DoorLock_tb.prj
+echo verilog work seg_open.v >> DoorLock_tb.prj
+echo verilog work R_4bit.v >> DoorLock_tb.prj
+echo verilog work PNU_OR8.v >> DoorLock_tb.prj
+echo verilog work PNU_CLK_DIV.v >> DoorLock_tb.prj
+echo verilog work Compare_Password2.v >> DoorLock_tb.prj
+echo verilog work binary2decimal.v >> DoorLock_tb.prj
+echo verilog work DoorLock.v >> DoorLock_tb.prj
+echo verilog work DoorLock_tb.v >> DoorLock_tb.prj
+echo vcd dumpfile DoorLock_tb.vcd >> DoorLock_tb.tcl
+echo vcd dumpvars -m /DoorLock_tb -l 1 >> DoorLock_tb.tcl
+echo run 10000 ns >> DoorLock_tb.tcl
+echo vcd dumpflush >> DoorLock_tb.tcl
+echo quit -f >> DoorLock_tb.tcl
+fuse -top work.DoorLock_tb -init DoorLock_tb.init -prj DoorLock_tb.prj  -o DoorLock_tb.exe
+./DoorLock_tb.exe -tclbatch DoorLock_tb.tcl
+rm DoorLock_tb.tcl
+rm DoorLock_tb.init
+rm DoorLock_tb.prj
+rm fuse.xmsgs
+rm fuseRelaunch.cmd
+rm isim.wdb
+rm -f DoorLock_tb.exe fuse.log isim.log
+rm -rf isim
+rm list of verilog or VHDL files
+rm -rf ./work
+rm -rf PNU_AND2.v
+rm -rf PNU_AND3.v
+rm -rf PNU_AND4.v
+rm -rf PNU_AND8.v
+rm -rf PNU_BUF.v
+rm -rf PNU_DFF.v
+rm -rf PNU_DFF_Ce.v
+rm -rf PNU_JKFF.v
+rm -rf PNU_MUX2.v
+rm -rf PNU_MUX4.v
+rm -rf PNU_MUX8.v
+rm -rf PNU_NAND2.v
+rm -rf PNU_NAND3.v
+rm -rf PNU_NAND4.v
+rm -rf PNU_NAND8.v
+rm -rf PNU_NOR2.v
+rm -rf PNU_NOR3.v
+rm -rf PNU_NOR4.v
+rm -rf PNU_NOR8.v
+rm -rf PNU_NOT.v
+rm -rf PNU_ONE.v
+rm -rf PNU_OR2.v
+rm -rf PNU_OR3.v
+rm -rf PNU_OR4.v
+rm -rf PNU_OR8.v
+rm -rf PNU_SRAM.v
+rm -rf PNU_TBUF.v
+rm -rf PNU_XNOR2.v
+rm -rf PNU_XNOR3.v
+rm -rf PNU_XNOR4.v
+rm -rf PNU_XOR2.v
+rm -rf PNU_XOR3.v
+rm -rf PNU_XOR4.v
+rm -rf PNU_ZERO.v
+rm -rf BCD4x4.v
+rm -rf binary2decimal.v
+rm -rf chan.v
+rm -rf Compare_Password.v
+rm -rf Compare_Password2.v
+rm -rf count_4.v
+rm -rf count_6.v
+rm -rf DCB.v
+rm -rf fail.v
+rm -rf open.v
+rm -rf PNU_CLK_DIV.v
+rm -rf Prac4.v
+rm -rf R_4bit.v
+rm -rf Reg_4bit.v
+rm -rf Reg_4x4.v
+rm -rf Register_4bit.v
+rm -rf seg_change.v
+rm -rf seg_fail.v
+rm -rf seg_open.v
+rm -rf seg7_change.v
+rm -rf test.v
+rm -rf test_bcd.v
+rm -rf test_tb.v
+rm -rf DoorLock.v
+rm -rf DoorLock_tb.v
+echo Finish simulation!!

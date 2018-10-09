@@ -1,0 +1,47 @@
+SymbolianIcn ver1.00(2006.04.27)
+ModuleName PNU_CLK_DIV
+LanguageType Veirlog
+GridInterval 8
+MillimetersIn100RealScaledUnit 25
+ZoomOutScale 32
+NumberOfHorzPapaers 1
+NumberOfVertPapaers 1
+IfDrawModuleName True
+IfDrawPortnameText True
+ModuleNameDrawPosition middle
+Boxes
+Box Left: 336 Top: 560 ,Right: 496 ,Bottom: 608
+End
+Parameters
+Parameter Name: cnt_num ,Type: integer ,Value: 2
+End
+Ports
+Port Left: 312 Top: 584 ,SymbolSideLeft: 336 ,SymbolSideTop: 584
+Portname: clk ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 568 ,SymbolSideLeft: 496 ,SymbolSideTop: 568
+Portname: div_clk ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 312 Top: 568 ,SymbolSideLeft: 336 ,SymbolSideTop: 568
+Portname: en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 312 Top: 600 ,SymbolSideLeft: 336 ,SymbolSideTop: 600
+Portname: rst ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+End
+Ellipses
+End
+Lines
+End
+Arcs
+End
+Texts
+End

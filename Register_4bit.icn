@@ -1,0 +1,61 @@
+SymbolianIcn ver1.00(2006.04.27)
+ModuleName Register_4bit
+LanguageType Veirlog
+GridInterval 8
+MillimetersIn100RealScaledUnit 25
+ZoomOutScale 13
+NumberOfHorzPapaers 1
+NumberOfVertPapaers 1
+IfDrawModuleName True
+IfDrawPortnameText True
+ModuleNameDrawPosition middle
+Boxes
+Box Left: 360 Top: 560 ,Right: 480 ,Bottom: 624
+End
+Parameters
+End
+Ports
+Port Left: 336 Top: 568 ,SymbolSideLeft: 360 ,SymbolSideTop: 568
+Portname: CLK ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 336 Top: 584 ,SymbolSideLeft: 360 ,SymbolSideTop: 584
+Portname: Din ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 504 Top: 568 ,SymbolSideLeft: 480 ,SymbolSideTop: 568
+Portname: Q0 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 504 Top: 584 ,SymbolSideLeft: 480 ,SymbolSideTop: 584
+Portname: Q1 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 504 Top: 600 ,SymbolSideLeft: 480 ,SymbolSideTop: 600
+Portname: Q2 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 504 Top: 616 ,SymbolSideLeft: 480 ,SymbolSideTop: 616
+Portname: Q3 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 336 Top: 600 ,SymbolSideLeft: 360 ,SymbolSideTop: 600
+Portname: RST ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+End
+Ellipses
+End
+Lines
+End
+Arcs
+End
+Texts
+End

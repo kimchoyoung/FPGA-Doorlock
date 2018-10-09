@@ -1,0 +1,106 @@
+SymbolianIcn ver1.00(2006.04.27)
+ModuleName seg_change
+LanguageType Veirlog
+GridInterval 8
+MillimetersIn100RealScaledUnit 25
+ZoomOutScale 32
+NumberOfHorzPapaers 1
+NumberOfVertPapaers 1
+IfDrawModuleName True
+IfDrawPortnameText True
+ModuleNameDrawPosition middle
+Boxes
+Box Left: 296 Top: 472 ,Right: 440 ,Bottom: 688
+End
+Parameters
+End
+Ports
+Port Left: 464 Top: 480 ,SymbolSideLeft: 440 ,SymbolSideTop: 480
+Portname: a ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 496 ,SymbolSideLeft: 440 ,SymbolSideTop: 496
+Portname: b ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 512 ,SymbolSideLeft: 440 ,SymbolSideTop: 512
+Portname: c ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 272 Top: 480 ,SymbolSideLeft: 296 ,SymbolSideTop: 480
+Portname: change ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 272 Top: 496 ,SymbolSideLeft: 296 ,SymbolSideTop: 496
+Portname: clk ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 592 ,SymbolSideLeft: 440 ,SymbolSideTop: 592
+Portname: com3 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 608 ,SymbolSideLeft: 440 ,SymbolSideTop: 608
+Portname: com4 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 624 ,SymbolSideLeft: 440 ,SymbolSideTop: 624
+Portname: com5 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 640 ,SymbolSideLeft: 440 ,SymbolSideTop: 640
+Portname: com6 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 656 ,SymbolSideLeft: 440 ,SymbolSideTop: 656
+Portname: com7 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 672 ,SymbolSideLeft: 440 ,SymbolSideTop: 672
+Portname: com8 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 528 ,SymbolSideLeft: 440 ,SymbolSideTop: 528
+Portname: d ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 544 ,SymbolSideLeft: 440 ,SymbolSideTop: 544
+Portname: e ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 560 ,SymbolSideLeft: 440 ,SymbolSideTop: 560
+Portname: f ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 464 Top: 576 ,SymbolSideLeft: 440 ,SymbolSideTop: 576
+Portname: g ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 272 Top: 512 ,SymbolSideLeft: 296 ,SymbolSideTop: 512
+Portname: rst ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+End
+Ellipses
+End
+Lines
+End
+Arcs
+End
+Texts
+End

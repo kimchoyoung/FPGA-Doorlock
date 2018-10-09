@@ -1,0 +1,40 @@
+[project]
+projecttype=1
+[folder0]
+filen=0
+[folder1]
+filen=0
+[folder2]
+filen=0
+[usedlibrary]
+n=0
+[lastservicesetting - CompileISim]
+usetasknamebymodulename - linen=1
+usetasknamebymodulename - 0=-1
+useautoalign - linen=1
+useautoalign - 0=-1
+topmodule - linen=1
+topmodule - 0=DoorLock_tb
+taskname - linen=1
+taskname - 0=DoorLock_tb
+compileordern - linen=1
+compileordern - 0=0
+[lastservicesetting - common]
+advancedoptionn - linen=1
+advancedoptionn - 0=0
+[lastservicesetting - SimulateISim]
+taskname - linen=1
+taskname - 0=DoorLock_tb
+usetasknamebymodulename - linen=1
+usetasknamebymodulename - 0=-1
+useautoalign - linen=1
+useautoalign - 0=-1
+topmodule - linen=1
+topmodule - 0=DoorLock_tb
+simulationtime - linen=1
+simulationtime - 0=10000
+simulationunit - linen=1
+simulationunit - 0=2
+compileordern - linen=1
+compileordern - 0=0
+vsimadvancedoption - linen=0

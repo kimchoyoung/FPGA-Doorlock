@@ -1,0 +1,51 @@
+SymbolianIcn ver1.00(2006.04.27)
+ModuleName R_4bit
+LanguageType Veirlog
+GridInterval 8
+MillimetersIn100RealScaledUnit 25
+ZoomOutScale 32
+NumberOfHorzPapaers 1
+NumberOfVertPapaers 1
+IfDrawModuleName True
+IfDrawPortnameText True
+ModuleNameDrawPosition middle
+Boxes
+Box Left: 368 Top: 560 ,Right: 472 ,Bottom: 624
+End
+Parameters
+End
+Ports
+Port Left: 344 Top: 584 ,SymbolSideLeft: 368 ,SymbolSideTop: 584
+Portname: Ce ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 344 Top: 568 ,SymbolSideLeft: 368 ,SymbolSideTop: 568
+Portname: Din ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+3
+,RV:
+0
+Port Left: 496 Top: 568 ,SymbolSideLeft: 472 ,SymbolSideTop: 568
+Portname: Dout ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 344 Top: 600 ,SymbolSideLeft: 368 ,SymbolSideTop: 600
+Portname: clock ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 344 Top: 616 ,SymbolSideLeft: 368 ,SymbolSideTop: 616
+Portname: reset ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+End
+Ellipses
+End
+Lines
+End
+Arcs
+End
+Texts
+End
